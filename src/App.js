@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Tictactoe from "./Components/Tictactoe/TicTacToe";
+import dot from "../src/Components/Assets/dot.png"
+import cross from "../src/Components/Assets/cross.png"
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+    {/* <h1 className='title'>Tic Tac Toe Game In <span>React</span></h1> */}
+    {/* <div className='board'> */}
+      
+    {/* </div>  */}
+      <Tictactoe/>
+      
     </div>
   );
 }
